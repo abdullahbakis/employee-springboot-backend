@@ -15,17 +15,20 @@ MySQL
 ## Setup
 Clone the repository
   git clone https://github.com/abdullahbakis/employee-springboot-react-full-stack.git
+
 Install the dependencies
   cd employee-springboot-react-full-stack/frontend
   npm install
-    cd ../backend
-mvn install
+  cd ../backend
+  mvn install
+
 Set up the database
 Create a MySQL database and run the employee.sql script to create the employee table
 Update the database credentials in the application.properties file
 Start the backend server
   cd backend
   mvn spring-boot:run
+
 Start the frontend server
   cd frontend
   npm start
