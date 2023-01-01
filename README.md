@@ -1,1 +1,41 @@
-This repository contains a full-stack application built with Spring Boot and React that allows users to manage a list of employees. The backend is implemented in Java using Spring Boot and connects to a MySQL database, while the frontend is implemented in React and communicates with the backend through RESTful APIs. The application features CRUD (create, read, update, delete) functionality for employee records and allows users to search and sort employees by various criteria. This project was developed as a learning exercise and demonstrates my skills in full-stack development, Java, Spring Boot, React, and MySQL.
+# Employee Spring Boot React Full Stack
+This is a full stack application that allows users to manage a list of employees. The frontend is built with React and the backend is built with Spring Boot.
+
+## Features
+Add, edit, and delete employees
+View a list of employees
+Search for employees by name or job title
+## Technologies
+React
+Spring Boot
+MySQL
+## Requirements
+Node.js
+MySQL
+## Setup
+Clone the repository
+
+git clone https://github.com/abdullahbakis/employee-springboot-react-full-stack.git
+Install the dependencies
+
+cd employee-springboot-react-full-stack/frontend
+npm install
+cd ../backend
+mvn install
+
+Set up the database
+Create a MySQL database and run the employee.sql script to create the employee table
+Update the database credentials in the application.properties file
+Start the backend server
+
+cd backend
+mvn spring-boot:run
+Start the frontend server
+
+cd frontend
+npm start
+Open the application in a browser at http://localhost:3000
+# Author
+Abdullah Bakış - abdullahbakis
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
